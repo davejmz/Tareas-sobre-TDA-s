@@ -1,9 +1,9 @@
 package PlaylistInteligente;
 
 public class Cancion {
-    private final String nombre; // Campo final
-    private final String artista; // Campo final
-    private final int duracion; // Campo final
+    private final String nombre; 
+    private final String artista; 
+    private final int duracion; 
 
     // Constructor
     public Cancion(String nombre, String artista, int duracion) {
@@ -25,7 +25,7 @@ public class Cancion {
         return duracion;
     }
 
-    // Método para mostrar la información de la canción
+    //Método para mostrar la información de la canción
     @Override
     public String toString() {
         return nombre + " - " + artista + " (" + duracion + " segundos)";
